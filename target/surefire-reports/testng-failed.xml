@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Target Regression Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="true"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="osVersion" value="11"/>
+  <parameter name="envName" value="browserStack"/>
+  <parameter name="browserVersion" value="120"/>
+  <parameter name="browserName" value="firefox"/>
+  <test thread-count="5" name="Target Test Automation(failed)" verbose="0">
+    <classes>
+      <class name="com.nysoftusa.testpages.JcPennyHomePageWebTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="startAutomation"/>
+          <include name="extentSetup"/>
+          <include name="endExecutingAutomation"/>
+          <include name="startExtent"/>
+          <include name="verifyFunctionalityOfBabyKidsSectionFailTesst"/>
+          <include name="endAutomation"/>
+          <include name="generateReport"/>
+          <include name="setUpBrowser"/>
+          <include name="afterEachTestMethod"/>
+          <include name="startExecutingAutomation"/>
+        </methods>
+      </class> <!-- com.nysoftusa.testpages.JcPennyHomePageWebTest -->
+    </classes>
+  </test> <!-- Target Test Automation(failed) -->
+</suite> <!-- Failed suite [Target Regression Test Suite] -->
