@@ -18,10 +18,11 @@
           <include name="startExtent"/>
           <include name="verifyFunctionalityOfBabyKidsSectionFailTesst"/>
           <include name="endAutomation"/>
+          <include name="verifyFunctionalityOfBabyKidsSection"/>
           <include name="generateReport"/>
           <include name="setUpBrowser"/>
-          <include name="afterEachTestMethod"/>
           <include name="startExecutingAutomation"/>
+          <include name="afterEachTestMethod"/>
         </methods>
       </class> <!-- com.nysoftusa.testpages.JcPennyHomePageWebTest -->
     </classes>
